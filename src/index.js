@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Courses from './pages/Courses';
 import Card from './components/Cards';
 import Footer from './components/Footer';
+import Home from './pages/Home';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -12,9 +13,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
   <>
-    <Courses />
+    {/* <Courses />
     <Card />
-    <Footer/>
+    <Footer/> */}
+    <Home />
   </>
   //</React.StrictMode>
 );
